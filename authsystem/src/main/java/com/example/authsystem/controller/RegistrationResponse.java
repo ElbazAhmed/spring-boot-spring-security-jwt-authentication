@@ -1,4 +1,4 @@
-package com.example.authsystem.registration;
+package com.example.authsystem.controller;
 
 public class RegistrationResponse {
     private String token;

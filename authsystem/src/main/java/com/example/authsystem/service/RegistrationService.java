@@ -1,10 +1,10 @@
-package com.example.authsystem.registration;
+package com.example.authsystem.service;
 
-import com.example.authsystem.appuser.AppUser;
-import com.example.authsystem.appuser.AppUserRepository;
-import com.example.authsystem.security.jwt.JwtService;
-import com.example.authsystem.security.jwt.Token;
-import com.example.authsystem.security.jwt.TokenRepository;
+import com.example.authsystem.model.AppUser;
+import com.example.authsystem.repository.AppUserRepository;
+import com.example.authsystem.controller.RegistrationResponse;
+import com.example.authsystem.model.Token;
+import com.example.authsystem.repository.TokenRepository;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;

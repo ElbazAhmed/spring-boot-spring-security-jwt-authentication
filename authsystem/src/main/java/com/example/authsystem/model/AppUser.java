@@ -1,4 +1,4 @@
-package com.example.authsystem.appuser;
+package com.example.authsystem.model;
 
 import jakarta.persistence.*;
 import lombok.EqualsAndHashCode;

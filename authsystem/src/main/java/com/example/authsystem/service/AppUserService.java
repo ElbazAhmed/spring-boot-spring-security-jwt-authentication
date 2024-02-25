@@ -1,6 +1,6 @@
-package com.example.authsystem.appuser;
+package com.example.authsystem.service;
 
-import lombok.AllArgsConstructor;
+import com.example.authsystem.repository.AppUserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

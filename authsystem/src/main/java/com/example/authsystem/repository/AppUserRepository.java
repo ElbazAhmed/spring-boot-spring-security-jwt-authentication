@@ -1,5 +1,6 @@
-package com.example.authsystem.appuser;
+package com.example.authsystem.repository;
 
+import com.example.authsystem.model.AppUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;

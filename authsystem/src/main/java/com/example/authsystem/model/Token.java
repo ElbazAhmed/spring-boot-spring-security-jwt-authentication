@@ -1,6 +1,6 @@
-package com.example.authsystem.security.jwt;
+package com.example.authsystem.model;
 
-import com.example.authsystem.appuser.AppUser;
+import com.example.authsystem.model.AppUser;
 import jakarta.persistence.*;
 
 @Entity

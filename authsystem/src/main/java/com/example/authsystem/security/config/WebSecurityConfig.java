@@ -1,6 +1,6 @@
 package com.example.authsystem.security.config;
 
-import com.example.authsystem.appuser.AppUserService;
+import com.example.authsystem.service.AppUserService;
 import com.example.authsystem.security.jwt.JwtAuthenticationFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

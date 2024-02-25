@@ -1,7 +1,7 @@
 package com.example.authsystem.security.jwt;
 
-import com.example.authsystem.appuser.AppUser;
-import com.example.authsystem.appuser.AppUserService;
+import com.example.authsystem.service.AppUserService;
+import com.example.authsystem.service.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

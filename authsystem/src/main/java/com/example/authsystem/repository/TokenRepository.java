@@ -1,5 +1,6 @@
-package com.example.authsystem.security.jwt;
+package com.example.authsystem.repository;
 
+import com.example.authsystem.model.Token;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

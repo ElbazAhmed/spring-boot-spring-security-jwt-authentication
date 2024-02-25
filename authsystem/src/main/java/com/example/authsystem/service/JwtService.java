@@ -1,6 +1,6 @@
-package com.example.authsystem.security.jwt;
+package com.example.authsystem.service;
 
-import com.example.authsystem.appuser.AppUser;
+import com.example.authsystem.model.AppUser;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.io.Decoders;
