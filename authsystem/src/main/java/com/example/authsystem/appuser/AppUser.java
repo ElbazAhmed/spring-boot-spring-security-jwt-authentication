@@ -17,6 +17,7 @@ import java.util.Collections;
 @EqualsAndHashCode
 @NoArgsConstructor
 @Entity
+@Table(name = "app_user")
 public class AppUser implements UserDetails {
     @SequenceGenerator(
             name = "student_sequence",
@@ -29,13 +30,20 @@ public class AppUser implements UserDetails {
             generator = "student_sequence"
     )
     private Long id;
+    @Column(name = "name")
     private String name;
+    @Column(name = "username")
     private String username;
+    @Column(name = "email")
     private String email;
+    @Column(name = "password")
     private String password;
     @Enumerated(EnumType.STRING)
+    @Column(name = "app_user_role")
     private AppUserRole appUserRole;
+    @Column(name = "locked")
     private Boolean locked;
+    @Column(name = "enabled")
     private Boolean enabled;
 
     public AppUser(String name, String username, String email, String password, AppUserRole appUserRole, Boolean locked, Boolean enabled) {
